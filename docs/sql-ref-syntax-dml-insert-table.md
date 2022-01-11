@@ -184,7 +184,7 @@ SELECT * FROM applicants;
 +-----------+--------------------------+----------+---------+
 
 INSERT INTO students
-     FROM applicants SELECT name, address, id applicants WHERE qualified = true;
+     FROM applicants SELECT name, address, id, qualified WHERE qualified = true;
 
 SELECT * FROM students;
 +-------------+--------------------------+----------+
